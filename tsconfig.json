@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+	"module": "CommonJS",
+        "moduleResolution": "node",
+        "jsx": "preserve",
+        "typeRoots": ["./src/scripts/@types"]
+    },
+    "files": [
+        "./node_modules/@types/node/index.d.ts"
+    ],
+    "include": ["src"],
+    "exclude": [
+        "node_modules"
+    ]
+}
